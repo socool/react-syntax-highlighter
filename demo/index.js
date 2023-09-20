@@ -141,6 +141,13 @@ function createElement({ node, style, useInlineStyles, key }) {
                 <span className="label__text">Wrap long lines</span>
               </label>
             </div>
+            <div className="options__option options__option--copy-code">
+              <label htmlFor="copyCode" className="option__label">
+                <button className="option__button" id="copyCode">
+                  Copy Code
+                </button>
+              </label>
+            </div>
           </aside>
 
           <article className="example__container">
