@@ -1947,6 +1947,15 @@ function createElement({ node, style, useInlineStyles, key }) {
                 <span className="label__text">Show line numbers</span>
               </label>
             </div>
+            <div className="options__option options__option--copy-code">
+              <label htmlFor="copyCode" className="option__label">
+                <button className="option__button" id="copyCode">
+                  Copy Code
+                </button>
+
+                <span className="label__text">Copy Code</span>
+              </label>
+            </div>
           </aside>
 
           <article className="example__container">
