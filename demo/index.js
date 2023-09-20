@@ -67,7 +67,6 @@ function createElement({ node, style, useInlineStyles, key }) {
       <div className="demo__root demo__root--default">
         <header>
           <h1>React Syntax Highlighter Demo</h1>
-          <ExamplesLinks />
         </header>
 
         <main>
